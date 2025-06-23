@@ -1,7 +1,7 @@
 function Name() {
   return (
     <>
-      <p className="font-semibold text-2xl">Sakha | Dev</p>
+      <p className="font-poppins font-semibold text-2xl md:text-4xl">Sakha | Dev</p>
     </>
   );
 }

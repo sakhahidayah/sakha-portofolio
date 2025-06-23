@@ -1,9 +1,11 @@
-import Header from "../organism/Header";
+import Content from "../organism/Content";
+import Navbar from "../organism/Navbar";
 
 function HomePage() {
   return (
     <>
-      <Header />
+      <Navbar />
+      <Content/>
     </>
   );
 }
