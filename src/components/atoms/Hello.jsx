@@ -14,7 +14,6 @@ function Hello() {
           Website Developer
         </span>
       </p>
-      
     </>
   );
 }
