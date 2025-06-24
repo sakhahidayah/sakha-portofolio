@@ -1,9 +1,9 @@
-import Contents from "../molecules/Contents";
+import TextGroup from "../molecules/TextGroup";
 
 function Content() {
   return (
     <>
-    <Contents/>
+    <TextGroup/>
     </>
   );
 }
