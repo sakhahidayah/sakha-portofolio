@@ -20,10 +20,10 @@ function Dropdown() {
             : "opacity-0 -translate-y-5 pointer-events-none"
         }`}
       >
-        <a className="hover:bg-[#8eebda]" href="/HomePage">
+        <a className="hover:bg-[#8eebda]" href="/Home">
           Home
         </a>
-        <a className="hover:bg-[#8eebda]" href="/AboutPage">
+        <a className="hover:bg-[#8eebda]" href="/Page">
           About
         </a>
         <a className="hover:bg-[#8eebda]" href="#">

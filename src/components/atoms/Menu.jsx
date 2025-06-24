@@ -5,13 +5,13 @@ function Menu() {
         <div className="flex flex-row gap-4 font-poppins font-medium text-lg lg:text-xl">
           <a
             className="hover:text-[#8eebda] hover:underline transition-all duration-200 "
-            href="/HomePage"
+            href="/Home"
           >
             Home
           </a>
           <a
             className="hover:text-[#8eebda] hover:underline  transition-all duration-200 "
-            href="/AboutPage"
+            href="/About"
           >
             About
           </a>
