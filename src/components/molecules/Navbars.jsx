@@ -4,7 +4,7 @@ import Menu from "../atoms/Menu";
 function Navbars() {
   return (
     <>
-      <div className="w-screen flex  p-8 border-y items-center flex-row justify-between ">
+      <div className="w-screen flex  p-8 items-center flex-row justify-between ">
         <Name />
         <Dropdown />
         <Menu />
