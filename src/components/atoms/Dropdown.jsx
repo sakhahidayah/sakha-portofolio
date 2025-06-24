@@ -14,7 +14,7 @@ function Dropdown() {
         ☰
       </button>
       <div
-        className={`absolute group bg-[#53f9dA] w-40 right-0  text-center text-[#141515]  font-poppins font-medium rounded text-lg  gap-4 p-1 mt-6 flex flex-col transition-all duration-300 ease-in-out font- ${
+        className={`absolute z-50 group bg-[#53f9dA] w-40 right-0  text-center text-[#141515]  font-poppins font-medium rounded text-lg  gap-4 p-1 mt-6 flex flex-col transition-all duration-300 ease-in-out font- ${
           dropdown
             ? "opacity-100 translate-y-0 pointer-events-auto"
             : "opacity-0 -translate-y-5 pointer-events-none"
@@ -22,9 +22,6 @@ function Dropdown() {
       >
         <a className="hover:bg-[#8eebda]" href="#">
           About
-        </a>
-        <a className="hover:bg-[#8eebda]" href="#">
-          Services
         </a>
         <a className="hover:bg-[#8eebda]" href="#">
           Projects
