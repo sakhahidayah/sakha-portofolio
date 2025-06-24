@@ -10,7 +10,7 @@ function Hello() {
       </span>
       <p className="font-poppins font-medium text-md md:text-xl mt-2 ">
         I'm a{" "}
-        <span className="bg-[#42bda6]  absolute animate-bounce ml-2 text-white p-1 rounded  font-kaushan text-xl md:text-2xl">
+        <span className="bg-[#42bda6]  absolute animate-bounce ml-2 text-white p-1 rounded-xl  font-kaushan text-xl md:text-2xl">
           Website Developer
         </span>
       </p>

@@ -1,17 +1,16 @@
-import Content from "../organism/Content";
 import Navbar from "../organism/Navbar";
 import Footer from "../organism/Footer";
-function HomePage() {
+import AboutGroup from "../organism/AboutGroup";
+function AboutPage() {
   return (
     <>
       <div className="min-h-screen flex flex-col">
         <Navbar />
         <div className="flex-grow">
-          <Content />
+          <AboutGroup/>
         </div>
       </div>
     </>
   );
 }
-
-export default HomePage;
+export default AboutPage;

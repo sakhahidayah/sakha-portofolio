@@ -1,8 +1,9 @@
+import FooterGroup from "../molecules/FooterGroup";
 function Footer() {
   return (
     <>
-      <div className="fixed bottom-0 w-full  border-y-2 bg-[#8eebda] border-slate-800 ">
-        
+      <div className="w-full h-36 ">
+        <FooterGroup />
       </div>
     </>
   );

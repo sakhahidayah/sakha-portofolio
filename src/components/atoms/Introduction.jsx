@@ -1,7 +1,7 @@
 function Introduction() {
   return (
     <>
-      <p className="mt-8 font-light text-slate-600 text-xs md:text-lg">
+      <p className="mt-8  font-light text-slate-600 text-xs md:text-lg lg:text-[21px]">
         I am a{" "}
         <span className="bg-[#8eebda] px-1 rounded-lg text-white font-medium text-shadow-2xs">
           Web Developer

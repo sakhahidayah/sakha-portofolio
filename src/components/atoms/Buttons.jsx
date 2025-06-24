@@ -5,27 +5,28 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 function Buttons() {
   return (
     <>
-      <div className="mt-5 flex flex-row gap-2 ">
+      <div className="mt-5 flex w-max h-max flex-row gap-1 md:gap-2 transition duration-500 ">
         <a
           href="https://github.com/sakhahidayah"
           target="_blank"
-          className="flex items-center gap-2 px-2 py-1 bg-black text-white border rounded-xl cursor-pointer "
+          className="flex items-center gap-1 px-2 py-1 transition duration-500 hover:text-white group hover:bg-black rounded-xl text-[40px] md:text-[60px]"
         >
-          <GitHubIcon fontSize="large" />
+          <GitHubIcon fontSize="inherit" />
         </a>
 
         <a
           href="https://www.linkedin.com/in/sakha-hidayah-ramadhan-2b1b0236a/"
           target="_blank"
-          className="flex items-center px-2 py-1 bg-blue-500 text-white border rounded-xl cursor-pointer"
+          className="flex group gap-1 items-center px-2 py-1 hover:bg-blue-500   transition duration-500 hover:text-white  rounded-xl cursor-pointer text-[40px] md:text-[60px]"
         >
-          <LinkedInIcon fontSize="large" />
+          <LinkedInIcon fontSize="inherit" />
         </a>
         <a
-          href=""
-          className="flex items-center px-2 py-1 bg-red-400 text-white border rounded-xl cursor-pointer"
+          href="https://www.instagram.com/sakhahidayahramadhan_/"
+          target="_blank"
+          className="flex items-center gap-1 px-2 py-1  transition duration-500  hover:bg-red-400 hover:text-white  group rounded-xl cursor-pointer text-[40px] md:text-[60px]"
         >
-          <InstagramIcon fontSize="large" />
+          <InstagramIcon fontSize="inherit" />
         </a>
       </div>
     </>
