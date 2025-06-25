@@ -1,7 +1,5 @@
-import {StrictMode } from 'react'
 import { createRoot } from "react-dom/client";
-import "./index.css";
-import App from "./App.jsx";
+import App from "./App";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import HomePage from "./components/pages/Homepage.jsx";
 import NotFound from "./components/pages/NotFound.jsx";
@@ -12,11 +10,11 @@ const router = createBrowserRouter([
     element: <App />,
   },
   {
-    path: "/Home",
+    path: "/home",
     element: <HomePage />,
   },
   {
-    path: "/About",
+    path: "/about",
     element: <AboutPage />,
   },
   {
@@ -25,7 +23,5 @@ const router = createBrowserRouter([
   },
 ]);
 createRoot(document.getElementById("root")).render(
-  <StrictMode>
-    <RouterProvider router={router}/>
-  </StrictMode>
+  <RouterProvider router={router} />
 );
