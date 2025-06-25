@@ -5,7 +5,7 @@ import Images from "../atoms/Images";
 function AboutGroup() {
   return (
     <>
-      <div className="w-full gap-5 md:flex-row h-max md:mt-36  flex flex-col  items-center justify-start md:justify-center">
+      <div className="w-full mt-16 p-2  gap-5 md:flex-row h-max md:mt-36  flex flex-col  items-center justify-start md:justify-center relative">
         <Images />
         <AboutSection/>
       </div>

@@ -1,7 +1,7 @@
 function Images() {
   return (
     <>
-      <div className="bg-[url('/img/sylvie.jpg')] w-52 h-52 md:w-64 md:h-64 bg-cover rounded-full"></div>
+      <div className="bg-[url('/img/sakha.png')] bg-cover object-cover w-60 h-60"></div>
     </>
   );
 }
