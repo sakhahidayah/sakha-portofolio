@@ -6,7 +6,7 @@ function AboutGroup() {
     <>
       <div
         id="about"
-        className="w-full mt-20 p-2 mb-24  gap-5  md:flex-row h-max md:mt-36  flex flex-col  items-center justify-start md:justify-center lg:justify-evenly relative"
+        className="w-full mt-20 py-28 mb-64  gap-5  md:flex-row h-max md:mt-36  flex flex-col  items-center justify-start md:justify-center lg:justify-evenly relative"
       >
         <Images />
         <AboutSection />

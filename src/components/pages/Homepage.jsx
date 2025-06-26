@@ -6,7 +6,7 @@ function HomePage() {
   return (
     <>
       <Navbar />
-      <div className="py-20">
+      <div className="py-20 flex flex-col justify-evenly ">
         <Content />
         <AboutGroup />
         <Projects />
