@@ -5,7 +5,7 @@ Introduction
 function TextGrop() {
   return (
     <>
-      <div className="p-10 lg:p-16   flex flex-col  w-full md:w-  gap-3 ">
+      <div className="p-10 lg:p-16   flex flex-col  w-full mb-20  gap-3 ">
          <div className="font-poppins  flex flex-col relative w-full sm:w-9/12">
         <Hello />
         <Introduction />

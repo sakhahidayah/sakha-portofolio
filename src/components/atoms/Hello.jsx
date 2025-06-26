@@ -1,7 +1,7 @@
 function Hello() {
   return (
     <>
-      <p className=" text-xl font-semibold md:text-5xl">Hello!</p>
+      <p  className=" text-xl font-semibold md:text-5xl">Hello!</p>
       <span className="font-semibold w-full text-2xl md:text-3xl flex flex-row items-center gap-2">
         MY NAME IS{" "}
         <span className="bg-gradient-to-br font-bold from-teal-500 to-teal-200 bg-clip-text text-transparent text-3xl md:text-5xl bg-transparent">

@@ -1,13 +1,15 @@
 import AboutSection from "../atoms/AboutSection";
 import Images from "../atoms/Images";
 
-
 function AboutGroup() {
   return (
     <>
-      <div className="w-full mt-16 p-2  gap-5 md:flex-row h-max md:mt-36  flex flex-col  items-center justify-start md:justify-center relative">
+      <div
+        id="about"
+        className="w-full mt-20 p-2 mb-24  gap-5  md:flex-row h-max md:mt-36  flex flex-col  items-center justify-start md:justify-center lg:justify-evenly relative"
+      >
         <Images />
-        <AboutSection/>
+        <AboutSection />
       </div>
     </>
   );

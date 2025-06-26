@@ -1,29 +1,29 @@
 function Menu() {
   return (
     <>
-      <div className="hidden md:inline-block">
+      <div className="hidden md:inline-block ">
         <div className="flex flex-row gap-4 font-poppins font-medium text-lg lg:text-xl">
           <a
             className="hover:text-[#8eebda] hover:underline transition-all duration-200 "
-            href="/home"
+            href="#home"
           >
             Home
           </a>
           <a
             className="hover:text-[#8eebda] hover:underline  transition-all duration-200 "
-            href="/about"
+            href="#about"
           >
             About
           </a>
           <a
             className="hover:text-[#8eebda] hover:underline  transition-all duration-200 "
-            href="/Project"
+            href="#project"
           >
             Project
           </a>
           <a
             className="hover:text-[#8eebda]  hover:underline transition-all duration-200 "
-            href="/Contact"
+            href="#contact"
           >
             Contact
           </a>

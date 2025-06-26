@@ -3,7 +3,9 @@ import Navbars from "../molecules/Navbars";
 function Navbar() {
   return (
     <>
-      <Navbars />
+      <div id="home" className="relative z-50 ">
+        <Navbars />
+      </div>
     </>
   );
 }

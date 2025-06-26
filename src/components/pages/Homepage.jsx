@@ -1,14 +1,15 @@
 import Content from "../organism/Content";
 import Navbar from "../organism/Navbar";
-import Footer from "../organism/Footer";
+import AboutGroup from "../organism/AboutGroup";
+import Projects from "../organism/Projects";
 function HomePage() {
   return (
     <>
-      <div className="min-h-screen flex flex-col">
-        <Navbar />
-        <div className="flex-grow">
-          <Content />
-        </div>
+      <Navbar />
+      <div className="py-20">
+        <Content />
+        <AboutGroup />
+        <Projects />
       </div>
     </>
   );
