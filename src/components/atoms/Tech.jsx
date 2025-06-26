@@ -1,0 +1,37 @@
+function Tech() {
+  const tech = [
+    { id: 1, name: "ReactJs", img: "/Tech/reactjs.png" },
+    { id: 2, name: "TailwindCSS", img: "/Tech/tailwind.png" },
+    { id: 3, name: "Javascript", img: "/Tech/javascript.png" },
+    { id: 4, name: "Bootstrap", img: "/Tech/bootstrap.png" },
+    { id: 5, name: "HTML5", img: "/Tech/html.png" },
+    { id: 6, name: "CSS3", img: "/Tech/css.png" },
+  ];
+  return (
+    <>
+      <div className="flex flex-col gap-10 justify-center items-center mb-24 font-poppins">
+        <h1 className="text-xl lg:text-2xl font-medium">
+          Some of my competencies are:
+        </h1>
+        <div className="grid grid-cols-2 md:grid-cols-3 md:gap-6  gap-5 justify-center items-center">
+          {tech.map((item) => {
+            return (
+              <>
+                <div className="flex flex-col border shadow-2xl transition duration-500 border-teal-600 px-4 py-2 rounded-xl gap-2 items-center hover:bg-black hover:text-white">
+                  <div
+                    key={item.id}
+                    style={{ backgroundImage: `url(${item.img})` }}
+                    className="w-14 h-14 bg-cover "
+                  ></div>
+                  <p className="text-center font-medium">{item.name}</p>
+                </div>
+              </>
+            );
+          })}
+        </div>
+      </div>
+    </>
+  );
+}
+
+export default Tech;

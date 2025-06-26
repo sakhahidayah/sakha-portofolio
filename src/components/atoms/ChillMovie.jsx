@@ -3,7 +3,7 @@ function ChillMovie() {
 
   return (
     <>
-      <div className="border relative shadow-2xl hover:shadow-none hover:ease-in-out hover:scale-125 transition duration-400 hover:bg-black hover:text-white hover:border-2 hover:border-teal-300 cursor-pointer px-3 py-4 gap-4 rounded-lg flex flex-col h-full font-poppins">
+      <div className="border relative shadow-2xl hover:shadow-none hover:ease-in-out hover:scale-110 transition duration-400 hover:bg-black hover:text-white hover:border-2 hover:border-teal-300 cursor-pointer px-3 py-4 gap-4 rounded-lg flex flex-col h-full font-poppins">
         <a
           target="_blank"
           href="https://chill-react-apps.vercel.app/"
