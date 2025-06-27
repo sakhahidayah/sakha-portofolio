@@ -5,7 +5,7 @@ function ContactHeader() {
         <h1
           data-aos="fade-left"
           data-aos-duration="1000"
-          className="text-3xl font-medium"
+          className="text-2xl font-semibold"
         >
           Get in touch
         </h1>

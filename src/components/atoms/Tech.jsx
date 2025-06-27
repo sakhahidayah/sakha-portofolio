@@ -14,7 +14,7 @@ function Tech() {
         <h1
           data-aos="fade-right"
           data-aos-duration="1000"
-          className="text-xl lg:text-2xl font-medium"
+          className="text-xl lg:text-2xl font-semibold"
         >
           Some of my competencies are:
         </h1>

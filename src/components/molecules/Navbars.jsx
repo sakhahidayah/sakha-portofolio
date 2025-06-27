@@ -4,7 +4,7 @@ import Menu from "../atoms/Menu";
 function Navbars() {
   return (
     <>
-      <div className="w-full flex fixed top-0   p-8 items-center flex-row justify-between ">
+      <div className="w-full flex fixed top-0 bg-[#F2F8FC]  p-8 items-center flex-row justify-between ">
         <Name />
         <Dropdown />
         <Menu />
