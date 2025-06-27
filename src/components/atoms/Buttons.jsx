@@ -5,7 +5,11 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 function Buttons() {
   return (
     <>
-      <div className="mt-5 flex w-max h-max flex-row gap-1 md:gap-2 transition duration-500 ">
+      <div
+        data-aos="fade-up"
+        data-aos-duration="900"
+        className="mt-5 flex w-max h-max  flex-row gap-1 md:gap-2 transition duration-500 "
+      >
         <a
           href="https://github.com/sakhahidayah"
           target="_blank"

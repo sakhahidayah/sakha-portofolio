@@ -1,6 +1,7 @@
 function Introduction() {
   return (
     <>
+    <div data-aos="fade-right" data-aos-duration="900">
       <p className="mt-8  font-light text-slate-600 text-sm md:text-lg lg:text-[21px]">
         I am a{" "}
         <span className="bg-[#8eebda] px-1 rounded-lg text-white font-medium text-shadow-2xs">
@@ -19,6 +20,7 @@ function Introduction() {
         and <span className="bg-[#8eebda] px-1 rounded-lg text-white font-medium text-shadow-2xs"> web technologies </span>, I am committed to delivering effective digital
         solutions tailored to user needs and business goals.
       </p>
+      </div>
     </>
   );
 }

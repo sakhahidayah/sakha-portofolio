@@ -1,7 +1,8 @@
 function AboutSection() {
   return (
     <>
-      <div className="w-full  md:w-[450px] h-min font-poppins p-4 flex flex-col gap-1">
+      <div data-aos="fade-left"
+          data-aos-duration="900" className="w-full  md:w-[450px] h-min font-poppins p-4 flex flex-col gap-1">
         <p className="font-semibold text-2xl lg:text-3xl">ABOUT ME</p>
         <p className="text-xl lg:text-2xl font-medium">
           {" "}

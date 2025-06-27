@@ -3,6 +3,7 @@ function Comics() {
 
   return (
     <>
+      <div data-aos="fade-right" fade-aos-duration='1000' className=" h-full">
       <div className="border relative shadow-2xl hover:shadow-none hover:ease-in-out hover:scale-110 transition duration-400 hover:bg-black hover:text-white hover:border-2 hover:border-teal-300 cursor-pointer px-3 py-4 gap-4 rounded-lg flex flex-col h-full font-poppins">
         <a href="https://art-comic-app.vercel.app/" target="_blank" className="inset-0 absolute z-50"></a>
         <div className="bg-[url('/project/comic.png')] w-80 h-40 bg-cover rounded-lg"></div>
@@ -18,6 +19,7 @@ function Comics() {
             })}
           </div>
         </div>
+      </div>
       </div>
     </>
   );

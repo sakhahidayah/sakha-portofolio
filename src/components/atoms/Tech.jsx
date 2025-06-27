@@ -10,10 +10,18 @@ function Tech() {
   return (
     <>
       <div className="flex flex-col gap-10 justify-center items-center mb-24 font-poppins">
-        <h1 className="text-xl lg:text-2xl font-medium">
+        <h1
+          data-aos="fade-right"
+          data-aos-duration="1000"
+          className="text-xl lg:text-2xl font-medium"
+        >
           Some of my competencies are:
         </h1>
-        <div className="grid grid-cols-2 md:grid-cols-3 md:gap-6  gap-5 justify-center items-center">
+        <div
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          className="grid grid-cols-2 md:grid-cols-3 md:gap-6  gap-5 justify-center items-center"
+        >
           {tech.map((item) => {
             return (
               <>
