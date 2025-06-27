@@ -6,6 +6,7 @@ function Tech() {
     { id: 4, name: "Bootstrap", img: "/Tech/bootstrap.png" },
     { id: 5, name: "HTML5", img: "/Tech/html.png" },
     { id: 6, name: "CSS3", img: "/Tech/css.png" },
+    { id: 7, name: "VITE", img: "/Tech/vite.png"},
   ];
   return (
     <>
