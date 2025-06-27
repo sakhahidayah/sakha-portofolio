@@ -19,7 +19,7 @@ function Buttons() {
         </a>
 
         <a
-          href="https://www.linkedin.com/in/sakha-hidayah-ramadhan-2b1b0236a/"
+          href="https://www.linkedin.com/in/sakha-hidayah-2b1b0236a/"
           target="_blank"
           className="flex group gap-1 items-center px-2 py-1 hover:bg-blue-500   transition duration-500 hover:text-white  rounded-xl cursor-pointer text-[40px] md:text-[60px]"
         >
