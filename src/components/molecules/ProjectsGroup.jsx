@@ -10,7 +10,7 @@ import TodolistV2 from "../atoms/Todolist-v2";
 function ProjectsGroup() {
   return (
     <>
-      <div className="transition duration-300 flex flex-col gap-10 lg:flex-row lg:flex-wrap justify-center">
+      <div className="transition duration-300 flex flex-col gap-5 lg:flex-row lg:flex-wrap justify-center">
         <ChillMovie />
         <Calculator />
         <Comics />
