@@ -10,10 +10,10 @@ function Buttons() {
           <GitHubIcon fontSize="inherit" />
         </a>
 
-        <a href="https://www.linkedin.com/in/sakha-hidayah-2b1b0236a/" target="_blank" className="flex group gap-1 items-center px-2 py-1 hover:bg-blue-500   transition duration-500 hover:text-white  rounded-xl cursor-pointer text-[40px] md:text-[60px]">
+        <a href="https://www.linkedin.com/in/sakha-hidayah" target="_blank" className="flex group gap-1 items-center px-2 py-1 hover:bg-blue-500   transition duration-500 hover:text-white  rounded-xl cursor-pointer text-[40px] md:text-[60px]">
           <LinkedInIcon fontSize="inherit" />
         </a>
-        <a href="https://www.instagram.com/skhhdyhhhh_/" target="_blank" className="flex items-center gap-1 px-2 py-1  transition duration-500  hover:bg-red-400 hover:text-white  group rounded-xl cursor-pointer text-[40px] md:text-[60px]">
+        <a href="https://www.instagram.com/sakhahidayahhh_/" target="_blank" className="flex items-center gap-1 px-2 py-1  transition duration-500  hover:bg-red-400 hover:text-white  group rounded-xl cursor-pointer text-[40px] md:text-[60px]">
           <InstagramIcon fontSize="inherit" />
         </a>
       </div>
